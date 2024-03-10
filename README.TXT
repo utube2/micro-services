@@ -60,4 +60,37 @@ docker run -d --name svc3 --rm -p 8083:8083 utube/micro-services:service3
 and then configure ALB  with path based routing  on ec2 instance and then ECS 
 
 
+FOR REMOTE - CREATE an blank  mainempty repo 
+
+FOR  GIT LOCAL LAPTOP / DESKTOP
+==================================
+
+go into the parent folder
+
+> git init  // inittialize as git repo 
+
+> git add . // add into staging 
+
+> git commit -m "1st commit" 
+
+
+check remote repo 
+> git remote -v
+
+
+check which branch u r working on 
+> git branch 
+> git status 
+ 
+
+
+NOW rename the branch 
+>git branch -M main   // renaming the branch locally 
+
+ADD REMOTE REPO URL
+>git remote add origin https://github.com/utube2/micro-services.git
+
+PUSH to remote repo
+>git push -u origin main  // main is the remote branch 
+
 
